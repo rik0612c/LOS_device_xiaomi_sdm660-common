@@ -113,7 +113,7 @@ PRODUCT_PACKAGES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -251,6 +251,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.fingerprint.rc \
     ueventd.qcom.rc
 
 # IRQ
